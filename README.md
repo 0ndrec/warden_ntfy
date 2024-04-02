@@ -39,9 +39,9 @@ Step 5: Add Script to Crontab
 To automatically check your validator's status at regular intervals, add the script to crontab:
 
     Open your user's crontab file by running crontab -e in your terminal.
-    Add a new line specifying how often you want the script to run. For example, to run it every hour, add:
+    Add a new line specifying how often you want the script to run.
+    For example, to run it every hour, add:
 
-    javascript
 
     0 * * * * /path/to/status.sh
 
