@@ -7,7 +7,7 @@ This script checks the status of a local Cosmos network validator. If the valida
 Prerequisites
 
     A Unix-like operating system with bash installed
-    curl must be installed on your system
+    curl and crontab must be installed on your system
     Access to crontab for scheduling the script
 
 **Step 1:** Check wardend and download script
