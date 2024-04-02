@@ -13,6 +13,9 @@ Prerequisites
 **Step 1:** Check wardend
 
     Check if your binaries are installed correctly. Check the paths.
+    Download a script from github: https://raw.githubusercontent.com/0ndrec/warden_ntfy/main/status.sh
+    ![carbon](https://github.com/0ndrec/warden_ntfy/assets/30905073/ee2eddc1-be8a-4728-ba9d-94664c3f4b0c)
+
 
 **Step 2:** Configure ntfy.sh Notifications
 
