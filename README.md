@@ -17,8 +17,7 @@ Prerequisites
 **Step 2:** Configure ntfy.sh Notifications
 
     Create a topic on ntfy.sh by visiting the website and choosing a unique topic name.
-    Replace <your-ntfy-topic> in the script with your actual ntfy.sh topic.
-    Enter your topic name in the script header using the nano tool.
+    Replace (using the nano tool) <your-ntfy-topic> in the script with your actual ntfy.sh topic.
 
 **Step 3:** Install the ntfy Mobile App (Optional)
 
