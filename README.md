@@ -10,7 +10,7 @@ Prerequisites
     curl must be installed on your system
     Access to crontab for scheduling the script
 
-**Step 1:** Check wardend
+**Step 1:** Check wardend and download script
 
     Check if your binaries are installed correctly. Check the paths.
     Download a script from github: https://raw.githubusercontent.com/0ndrec/warden_ntfy/main/status.sh
