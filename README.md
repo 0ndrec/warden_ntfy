@@ -10,16 +10,17 @@ Prerequisites
     curl must be installed on your system
     Access to crontab for scheduling the script
 
-Step 1: Check wardend
+**Step 1:** Check wardend
 
     Check if your binaries are installed correctly. Check the paths.
 
-Step 2: Configure ntfy.sh Notifications
+**Step 2:** Configure ntfy.sh Notifications
 
     Create a topic on ntfy.sh by visiting the website and choosing a unique topic name.
     Replace <your-ntfy-topic> in the script with your actual ntfy.sh topic.
+    Enter your topic name in the script header using the nano tool.
 
-Step 3: Install the ntfy Mobile App (Optional)
+**Step 3:** Install the ntfy Mobile App (Optional)
 
 To receive notifications directly on your phone, install the ntfy app:
 
@@ -29,12 +30,12 @@ To receive notifications directly on your phone, install the ntfy app:
 
 After installing, subscribe to the same topic you configured in the script.
 
-Step 4: Make the Script Executable: To allow the script to run, you need to make it executable.
+**Step 4:** Make the Script Executable: To allow the script to run, you need to make it executable.
 This can be done by changing the script's permissions with the chmod command. Open a terminal and run:
 
     chmod +x /path/to/status.sh
 
-Step 5: Add Script to Crontab
+**Step 5:** Add Script to Crontab
 
 To automatically check your validator's status at regular intervals, add the script to crontab:
 
